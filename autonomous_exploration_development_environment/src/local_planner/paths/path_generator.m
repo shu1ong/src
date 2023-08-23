@@ -111,7 +111,9 @@ pause(1.0);
 %% find correspondence
 %{.
 voxelSize = 0.02;
-searchRadius = 0.45;
+VehicleWidth = 0.6;
+VehicleLength = 0.7;
+searchRadius = sqrt((VehicleLength/2)^2+(VehicleWidth/2)^2);
 offsetX = 3.2;
 offsetY = 4.5;
 voxelNumX = 161;
