@@ -12,7 +12,7 @@
 #include <nav_msgs/Path.h>
 #include <nav_msgs/Odometry.h>
 #include <geometry_msgs/TwistStamped.h>
-#include </home/j/catkin_ws/devel/include/gazebo_msgs/ModelState.h>
+#include <gazebo_msgs/ModelState.h>
 #include <sensor_msgs/Imu.h>
 #include <sensor_msgs/PointCloud2.h>
 #include <sensor_msgs/Joy.h>

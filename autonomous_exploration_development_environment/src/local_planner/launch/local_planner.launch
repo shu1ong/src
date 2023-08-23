@@ -15,7 +15,7 @@
     <param name="pathFolder" type="string" value="$(find local_planner)/paths" />
     <param name="vehicleLength" type="double" value="0.7" />
     <param name="vehicleWidth" type="double" value="0.6" />
-    <param name="sensorOffsetX" value="$(arg sensorOffsetX)" /
+    <param name="sensorOffsetX" value="$(arg sensorOffsetX)" />
     <param name="sensorOffsetY" value="$(arg sensorOffsetY)" />
     <param name="twoWayDrive" value="$(arg twoWayDrive)" />
     <param name="laserVoxelSize" type="double" value="0.05" />
